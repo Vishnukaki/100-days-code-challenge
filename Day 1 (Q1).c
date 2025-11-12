@@ -1,20 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum;
-
-    // Input two numbers
-    printf("Enter first number: ");
-    scanf("%d", &num1);
-
-    printf("Enter second number: ");
-    scanf("%d", &num2);
-
-    // Calculate sum
-    sum = num1 + num2;
-
-    // Display the result
-    printf("Sum = %d\n", sum);
-
+    int a, b, total;
+    printf("Please enter two integers: ");
+    scanf("%d %d", &a, &b);
+    total = a + b;
+    printf("The total is: %d\n", total);
     return 0;
 }
