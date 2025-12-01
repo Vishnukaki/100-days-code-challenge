@@ -14,7 +14,7 @@ int main() {
     printf("Enter your percentage (0 - 100): ");
     scanf("%f", &percentage);
 
-    // check and assign grade using if–else ladder
+    // check and assign grade using ifâ€“else ladder
     if (percentage >= 90 && percentage <= 100)
         printf("Grade: A\n");
     else if (percentage >= 80 && percentage < 90)
