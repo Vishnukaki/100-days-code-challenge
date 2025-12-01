@@ -29,7 +29,7 @@ int main() {
         i++;
     }
 
-    // The last collected word is the surname – print it fully
+    // The last collected word is the surname â€“ print it fully
     word[j] = '\0';
     printf("%s", word);
 
