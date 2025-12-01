@@ -19,7 +19,7 @@ int main() {
         }
         else if ((str[i] >= 'A' && str[i] <= 'Z') ||
                  (str[i] >= 'a' && str[i] <= 'z')) {
-            // letters — ignore
+            // letters â€” ignore
         }
         else if (str[i] != '\n') {
             special++;   // everything except letters, digits, and space
