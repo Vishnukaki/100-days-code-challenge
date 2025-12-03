@@ -23,3 +23,4 @@ int main() {
     printf("Pivot integer: -1\n");
     return 0;
 }
+
